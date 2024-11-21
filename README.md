@@ -43,8 +43,8 @@ import gradio as gr
 
 # Load environment variables
 _ = load_dotenv(find_dotenv())  # Reads local .env file
-hf_api_key = os.environ['HF_API_KEY']  # Hugging Face API key
-ENDPOINT_URL = os.environ['HF_API_TTI_BASE']  # Hugging Face Text-to-Image API endpoint
+hf_api_key = os.environ['*******']  # Hugging Face API key
+ENDPOINT_URL = os.environ['*******']  # Hugging Face Text-to-Image API endpoint
 PORT = int(os.environ['PORT1'])  # Port to launch the Gradio app
 
 # Function to interact with Hugging Face API
